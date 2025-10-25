@@ -6,8 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" type="image/x-icon" href="./vt.ico">
    <title>Keithston</title>
-  <script type="module" crossorigin src="./assets/index-DftE1v5V.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-PHRBcJDL.css">
+  <script type="module" crossorigin src="./assets/index-UhK5O4Q9.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-8fAto1r5.css">
 </head>
 
 <body>
@@ -187,42 +187,151 @@
                   <h2 class="gallery__title title">Explore More</h2>
                   <ul class="gallery__menu menu-gallery">
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Cake</a>
+                        <button class="menu-gallery__button active" data-filter="cakes">Cake</button>
                      </li>
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Muffins</a>
+                        <button class="menu-gallery__button" data-filter="muffins">Muffins</button>
                      </li>
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Croissant</a>
+                        <button class="menu-gallery__button" data-filter="croissant">Croissant</button>
                      </li>
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Bread</a>
+                        <button class="menu-gallery__button" data-filter="bread">Bread</button>
                      </li>
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Tart</a>
+                        <button class="menu-gallery__button" data-filter="tart">Tart</button>
                      </li>
                      <li class="menu-gallery__item">
-                        <a href="#" class="menu-gallery__link">Favorite</a>
+                        <button class="menu-gallery__button" data-filter="favorite">Favorite</button>
                      </li>
                   </ul>
+
                   <div class="gallery__items item-gallery">
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-01-BNYV_KsH.webp" alt="image gallery">
+                     <!-- cakes -->
+                     <div class="item-gallery__container" data-group="cakes">
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-02-DqSMws48.webp" alt="image product gallery cakes">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-03-Dp5wMZ3z.webp" alt="image product gallery cakes">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-04-DYZjjRCj.webp" alt="image product gallery cakes">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-05-D-ZvYpsb.webp" alt="image product gallery cakes">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-06-DzXgolsb.webp" alt="image product gallery cakes">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cake-06-D9bLc2Km.jpg" alt="image product gallery cakes">
+                        </div>
                      </div>
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-02-DqSMws48.webp" alt="image gallery">
+                     <!-- muffins -->
+                     <div class="item-gallery__container" data-group="muffins">
+                        <div class="item-gallery__image">
+                           <img src="./assets/muffin-01-D-KZb5Zh.jpg" alt="image gallery muffins">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/muffin-02-uXt-UQ_5.jpg" alt="image gallery muffins">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/muffin-03-BJYqU0IK.webp" alt="image gallery muffins">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/muffin-04-CM5lrMts.webp" alt="image gallery muffins">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/muffin-06-C_Vvig0i.jpg" alt="image gallery muffins">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/cart-gal-01-BNYV_KsH.webp" alt="">
+                        </div>
                      </div>
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-03-Dp5wMZ3z.webp" alt="image gallery">
+                     <!-- croissants -->
+                     <div class="item-gallery__container" data-group="croissant">
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-01-C59YEoKf.jpg" alt="image product gallery croissant">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-02-CWd1P3y5.jpg" alt="image product gallery croissant">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-03-DPzv468u.webp" alt="image product gallery croissant">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-04-CMiMLpor.jpg" alt="image product gallery croissant">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-05-Bp8cQtys.jpg" alt="image product gallery croissant">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/croissant-06-DV0b5zgl.jpg" alt="image product gallery croissant">
+                        </div>
                      </div>
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-04-DYZjjRCj.webp" alt="image gallery">
+                     <!-- bread -->
+                     <div class="item-gallery__container" data-group="bread">
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-01-49nmWykK.jpg" alt="image product gallery bread">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-02-Duc6g-cS.webp" alt="image product gallery bread">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-03-CJIL054l.webp" alt="image product gallery bread">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-04-CfxY_jGt.webp" alt="image product gallery bread">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-05-BuB0rE6Q.webp" alt="image product gallery bread">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/bread-06-BZ3LoP94.webp" alt="image product gallery bread">
+                        </div>
                      </div>
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-05-D-ZvYpsb.webp" alt="image gallery">
+                     <!-- tarts -->
+                     <div class="item-gallery__container" data-group="tart">
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-01-DqcjfuXa.jpg" alt="image product gallery tart">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-02-rqFqRc8Y.jpg" alt="image product gallery tart">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-03-D7VCjZ0j.webp" alt="image product gallery tart">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-04-BkqdJOke.webp" alt="image product gallery tart">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-05-B-gipVLr.jpg" alt="image product gallery tart">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/tart-06-iIgUmtqA.jpg" alt="image product gallery tart">
+                        </div>
                      </div>
-                     <div class="item-gallery__image">
-                        <img src="./assets/cart-gal-06-DzXgolsb.webp" alt="image gallery">
+                     <!-- favorite -->
+                     <div class="item-gallery__container" data-group="favorite">
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-01-CYpZ9gnV.jpg" alt="image product gallery favorite">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-02-DQN-m5vD.jpg" alt="image product gallery favorite">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-03-Cw-NYkj1.jpg" alt="image product gallery favorite">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-04-CH6ym1T7.webp" alt="image product gallery favorite">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-05-Daw4U7Wt.jpg" alt="image product gallery favorite">
+                        </div>
+                        <div class="item-gallery__image">
+                           <img src="./assets/dessert-06-BlUP_ZPI.jpg" alt="image product gallery favorite">
+                        </div>
                      </div>
                   </div>
                </div>
